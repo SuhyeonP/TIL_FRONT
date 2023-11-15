@@ -6,3 +6,4 @@
 그러나 일부 의존성 패키지는 `npm_config_` 환경변수를 사용할 수도 있다. 이는 cli 옵션을 통해 주어져야한다. 아래와 같은 옵션이 있다.
 1. 환경변수를 명시적으로 설정한다. `npm_config_target_arch=x64 pnpm install`
 2. 옵션을 `--config.`를 토앻 설정한다. `pnpm install --config.target_arch=x64`
+3. pnpm run dev(터보레포기준)으로 app에 있는 두가지 프로젝트가 다른포트로 실행된다.
